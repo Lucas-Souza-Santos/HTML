@@ -2,12 +2,12 @@ const express = require('express');
 
 const app = express()
 
-app.get('/form.html',
+app.get('/index.html',
 (req, res) =>
 {
     res.sendFile(__dirname +"/form.html");
     let rota = req.query;
-    const obj = 
+    const dev = 
     {   
         nome: rota['nome'],
         sobrenome: rota['sobrenome'],
@@ -25,9 +25,9 @@ app.get('/form.html',
         ]
 
     }
+    res.sendFile(__dirname + "index.html", dev);
+
 });
-
-
 
 app.listen(5500, () => {
     console.log("servidor criado");
