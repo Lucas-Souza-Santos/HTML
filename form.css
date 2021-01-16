@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    width: 80%;
+    margin: auto;
+    background-color: #a0a0a0;
+}
+
+.header
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    text-align: center;
+    padding: 5px;
+    border: solid 1px #000;
+    border-radius: 10px;
+    margin: 20px;
+    background-color: #fff;
+}
+.centro
+{   
+    border: solid 1px #000;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 20px;
+    background-color: #fff;
+    height: 635px;   
+}
+.centro form
+{
+    padding: 20px;
+}
+.centro form fieldset
+{
+    border: #000 solid 1px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+    
+}
+.centro form fieldset div
+{
+    margin: 5px 0px;
+}
+.centro form fieldset div label,
+.centro form .email label,
+.centro form .aplicacao label,
+.centro form fieldset .pergunta,
+.centro form fieldset input
+{
+    display: block;
+    margin-bottom: 2px;
+}
+.centro form fieldset div input, .centro form .email input
+{
+    height: 20px;
+    border-radius: 5px;
+}
+.centro form .email
+{
+    margin-bottom: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 5px;
+}
+.centro form .aplicacao
+{
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.centro form .aplicacao input
+{
+    margin-right: 5px;
+}
+.centro form .senioridade
+{
+    margin-bottom: 10px;
+}
+.centro form div label
+{
+    margin-right: 10px;
+}
+.centro form div select
+{
+    height: 25px;
+    width: 100px;
+    border-radius: 5px;
+}
+.centro form fieldset .opcao
+{
+    display: flex;
+}
+.centro form fieldset .opcao label
+{
+    margin-left: 5px;
+}
+
+.centro form button
+{
+    height: 50px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: aqua;
+    border: 1px solid #000;
+}
